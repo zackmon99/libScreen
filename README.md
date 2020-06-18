@@ -5,4 +5,4 @@ put src/Screen.hpp in your include directory.
 
 The namespace for screen is zmgfx.
 e.g.:
-zmfgx::Screen *screen = new Screen();
+zmgfx::Screen *screen = new Screen();
