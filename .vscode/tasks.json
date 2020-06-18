@@ -1,0 +1,32 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "cl.exe build active file",
+			"command": ".\\compile.bat",
+			"args": [
+				/*
+                "/c",
+				"/I",
+				"C:\\Users\\zackm\\Code\\SDL2\\include",
+				"/I",
+				".\\include",
+				//"/Zi",
+				"/EHsc",
+				"/Fe:",
+				"${fileDirname}\\${fileBasenameNoExtension}.exe",
+				"src\\*.cpp",
+				"lib\\*.lib"
+				*/
+			],
+			"problemMatcher": [
+				"$msCompile"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}
